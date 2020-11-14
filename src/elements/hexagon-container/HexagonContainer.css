@@ -1,0 +1,50 @@
+.button{
+      position: relative;
+      display:block;
+      background: transparent;
+      line-height:60px;
+      text-decoration:none;
+  }
+
+  .HexagonText {
+    text-align: center;
+  }
+
+  .gray { color: var(--Black-100); }
+
+  .gray:before,.gray:after {
+      border: 2px solid;
+      border-color: var(--Black-40);
+  }
+  
+  .button:before{
+    position: absolute;
+    content: '';
+    border-bottom: none;
+    -webkit-transform: perspective(15px) rotateX(5deg);
+    -moz-transform: perspective(15px) rotateX(5deg);
+    transform: perspective(15px) rotateX(5deg);  
+  }
+  .button:after{
+    position: absolute;
+    top: 32px;
+    content: '';
+    border-top: none;
+    -webkit-transform: perspective(15px) rotateX(-5deg);
+    -moz-transform: perspective(15px) rotateX(-5deg);
+    transform: perspective(15px) rotateX(-5deg);
+  }
+  
+  .Answers > .HexagonContainer > .gray:hover:before {
+      border-color: var( --Hexagon-border-hover);
+  }
+
+  .Answers > .HexagonContainer > .gray:hover:after {
+    border-color: var( --Hexagon-border-hover);
+  }
+
+  .CorrectAnswer {
+      background-color: var(--Green-5);
+  }
+  
+

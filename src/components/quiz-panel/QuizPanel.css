@@ -1,0 +1,60 @@
+.QuizPanelWrapper {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.QuizPanelContainer {
+    display: flex;
+    min-height: inherit;
+    flex-direction: column;
+}
+
+.MenuWrapper {
+    flex-basis: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.5rem 0.5rem 0rem 0rem;
+    background-color: var(--Black-5);
+}
+
+.Menu {
+    display: block;
+}
+
+.Visible {
+    display: block;
+}
+
+.Hidden {
+    display: none;
+}
+
+.ShowBountyListWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--Black-5);
+}
+
+@media screen and (max-width: 1024px)  {
+    .MenuWrapper {
+        padding: 2rem 2rem 0rem 0rem;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .MenuWrapper {
+        display: none;
+    }
+
+    .QuizPanelContainer {
+        flex-direction: row;
+    }
+}

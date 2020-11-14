@@ -1,0 +1,88 @@
+.WelcomeWindowWrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, white, white 50%, rgb(255, 243, 235) 50%,rgb(255, 243, 235));
+}
+
+.WelcomeWindowContainer {
+    display: flex;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .WelcomeWindowContainer {
+        min-height: inherit;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Logo {
+        min-width: 200px;
+        max-width: 200px;
+    }
+
+    .WelcomeWindowContainer article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .WelcomeWindowContainer article h1 {
+        width: 75%;
+        text-align: center;
+    }
+
+    .WelcomeWindowContainer article button {
+        max-width: 30%;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1920px) {
+    .Logo {
+        flex-basis: 45%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .Logo > svg {
+        min-width: 300px;
+    }
+
+    .WelcomeWindowContainer article {
+        flex-basis: 50%;
+    }
+
+    .WelcomeWindowContainer article h1 {
+        width: 75%;
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 3840px) {
+    .Logo {
+        min-width: 400px;
+        flex-basis: 45%;
+    }
+
+    .WelcomeWindowContainer article {
+        flex-basis: 50%;
+        padding-left: 3rem;
+    }
+
+    .WelcomeWindowContainer article h1 {
+        width: 75%;
+        font-size: 6rem;
+    }
+
+    .WelcomeWindowContainer article button {
+        max-width: 40%;
+        padding: 2rem;
+        font-size: 3.5rem;
+    }
+}

@@ -1,0 +1,59 @@
+.TotalScoreWrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Black-5);
+} 
+
+.TotalScoreContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TotalScoreContainer article {
+    flex-basis: 55%;
+    padding-left: 2rem;
+}
+
+.TotalScoreContainer article h1 {
+    font-size: 4rem;
+}
+
+.TotalScoreContainer article p {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .TotalScoreContainer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .TotalScoreContainer article {
+        flex-basis: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem;
+    }
+
+    .TotalScoreContainer article h1 {
+        font-size: 1.5rem;
+    }
+
+    .TotalScoreContainer > article > button {
+        width: 80%;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .TotalScoreContainer article p {
+        font-size: 1rem;
+    }
+}
