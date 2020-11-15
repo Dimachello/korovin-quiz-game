@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/korovin-quiz-game/static/css/main.de626f33.chunk.css",
-    "main.js": "/korovin-quiz-game/static/js/main.f00f70c1.chunk.js",
-    "main.js.map": "/korovin-quiz-game/static/js/main.f00f70c1.chunk.js.map",
+    "main.css": "/korovin-quiz-game/static/css/main.b2abc25b.chunk.css",
+    "main.js": "/korovin-quiz-game/static/js/main.3e8d2271.chunk.js",
+    "main.js.map": "/korovin-quiz-game/static/js/main.3e8d2271.chunk.js.map",
     "runtime-main.js": "/korovin-quiz-game/static/js/runtime-main.fe7a4b6e.js",
     "runtime-main.js.map": "/korovin-quiz-game/static/js/runtime-main.fe7a4b6e.js.map",
     "static/js/2.67d3dac5.chunk.js": "/korovin-quiz-game/static/js/2.67d3dac5.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.bab2edd5.chunk.js": "/korovin-quiz-game/static/js/3.bab2edd5.chunk.js",
     "static/js/3.bab2edd5.chunk.js.map": "/korovin-quiz-game/static/js/3.bab2edd5.chunk.js.map",
     "index.html": "/korovin-quiz-game/index.html",
-    "static/css/main.de626f33.chunk.css.map": "/korovin-quiz-game/static/css/main.de626f33.chunk.css.map",
+    "static/css/main.b2abc25b.chunk.css.map": "/korovin-quiz-game/static/css/main.b2abc25b.chunk.css.map",
     "static/js/2.67d3dac5.chunk.js.LICENSE.txt": "/korovin-quiz-game/static/js/2.67d3dac5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fe7a4b6e.js",
     "static/js/2.67d3dac5.chunk.js",
-    "static/css/main.de626f33.chunk.css",
-    "static/js/main.f00f70c1.chunk.js"
+    "static/css/main.b2abc25b.chunk.css",
+    "static/js/main.3e8d2271.chunk.js"
   ]
 }
