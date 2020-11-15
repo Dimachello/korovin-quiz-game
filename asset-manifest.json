@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/korovin-quiz-game/static/css/main.8888f7ec.chunk.css",
-    "main.js": "/korovin-quiz-game/static/js/main.49e721e7.chunk.js",
-    "main.js.map": "/korovin-quiz-game/static/js/main.49e721e7.chunk.js.map",
+    "main.js": "/korovin-quiz-game/static/js/main.f00f70c1.chunk.js",
+    "main.js.map": "/korovin-quiz-game/static/js/main.f00f70c1.chunk.js.map",
     "runtime-main.js": "/korovin-quiz-game/static/js/runtime-main.fe7a4b6e.js",
     "runtime-main.js.map": "/korovin-quiz-game/static/js/runtime-main.fe7a4b6e.js.map",
     "static/js/2.67d3dac5.chunk.js": "/korovin-quiz-game/static/js/2.67d3dac5.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.fe7a4b6e.js",
     "static/js/2.67d3dac5.chunk.js",
     "static/css/main.8888f7ec.chunk.css",
-    "static/js/main.49e721e7.chunk.js"
+    "static/js/main.f00f70c1.chunk.js"
   ]
 }
