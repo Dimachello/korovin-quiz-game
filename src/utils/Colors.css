@@ -1,11 +1,12 @@
 :root {
-    --Orange-100: rgba(255, 139, 55);
-    --Orange-80: rgba(255, 172, 112);
-    --Orange-120: rgba(232, 121, 40);
-    --Black-5: rgb(245, 245, 247);
-    --Black-40: rgb(208, 208, 216);
-    --Black-100: rgba(0,0,0);
-    --Hexagon-border-hover: rgb(255, 139, 55);
-    --Green-5: rgb(230, 250, 234);
-    --Red-5: rgb(253, 238, 237);
+  --Orange-100: rgba(255, 139, 55);
+  --Orange-80: rgba(255, 172, 112);
+  --Orange-120: rgba(232, 121, 40);
+  --Black-5: rgb(245, 245, 247);
+  --Black-40: rgb(208, 208, 216);
+  --Black-100: rgba(0, 0, 0);
+  --Hexagon-border-hover: rgb(255, 139, 55);
+  --Green-5: rgb(230, 250, 234);
+  --Red-5: rgb(253, 238, 237);
+  --White-100: rgb(255, 255, 255);
 }
