@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import QuestionsArea from "../questions-area";
-import BountyList from "../bounty-list/BountyList";
-import TotalScore from "../total-score";
+import QuestionsArea from "../QuestionsArea";
+import BountyList from "../BountyList";
+import TotalScore from "../TotalScore";
 import config from "../../utils/config";
 import menu from "../../imgs/menu.png";
 import "./QuizPanel.css";

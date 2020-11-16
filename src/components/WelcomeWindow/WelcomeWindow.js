@@ -1,14 +1,14 @@
-import React from 'react';
-import { useHistory } from 'react-router-dom';
-import './WelcomeWindow.css';
-import Logo from '../../elements/logo/Logo';
-import Button from '../../elements/button/Button';
+import React from "react";
+import { useHistory } from "react-router-dom";
+import "./WelcomeWindow.css";
+import Logo from "../../elements/Logo/Logo";
+import Button from "../../elements/Button/Button";
 
 const WelcomeWindow = () => {
   const history = useHistory();
 
   const quizRedirectHandler = () => {
-    history.push('/quiz');
+    history.push("/quiz");
   };
 
   return (

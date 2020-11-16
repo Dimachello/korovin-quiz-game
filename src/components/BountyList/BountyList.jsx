@@ -2,7 +2,7 @@ import React from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
 import './BountyList.css';
-import Bounty from '../../elements/hexagon-container/HexagonContainer';
+import Bounty from '../../elements/HexagonContainer/HexagonContainer';
 import config from '../../utils/config';
 import close from '../../imgs/close.png';
 

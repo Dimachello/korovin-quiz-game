@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import "./QuestionsArea.css";
-import Answer from "../../elements/hexagon-container/HexagonContainer";
-import Question from "../../elements/question/Question";
+import Answer from "../../elements/HexagonContainer/HexagonContainer";
+import Question from "../../elements/Question/Question";
 import config from "../../utils/config";
 
 const QuestionsArea = ({

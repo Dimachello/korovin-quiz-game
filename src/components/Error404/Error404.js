@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./Error404.css";
-import Button from "../../elements/button/Button";
+import Button from "../../elements/Button/Button";
 import { useHistory } from "react-router-dom";
 
 const Error404 = () => {

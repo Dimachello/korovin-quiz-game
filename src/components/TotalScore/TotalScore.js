@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import { useHistory } from "react-router-dom";
 import "./TotalScore.css";
-import Logo from "../../elements/logo/Logo";
-import Button from "../../elements/button/Button";
+import Logo from "../../elements/Logo/Logo";
+import Button from "../../elements/Button/Button";
 import config from "../../utils/config";
 
 const TotalScore = ({ answersCount }) => {
