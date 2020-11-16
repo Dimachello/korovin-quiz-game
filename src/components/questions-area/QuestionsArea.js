@@ -1,21 +1,24 @@
 import React, { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 import "./QuestionsArea.css";
 import Answer from "../../elements/hexagon-container/HexagonContainer";
 import Question from "../../elements/question/Question";
 import config from "../../utils/config";
 
-const QuestionsArea = ({ updateCount, showScore, questionNumber, getQuestionNumber }) => {
+const QuestionsArea = ({
+  updateCount,
+  showScore,
+  questionNumber,
+  getQuestionNumber,
+}) => {
   const [currentQuestion, setCurrentQuestion] = useState(questionNumber);
   const [currentAnswer, setCurrentAnswer] = useState([]);
   const [isChecked, setChecked] = useState(false);
 
   const answerSetHandler = (event) => {
     if (currentAnswer.includes(event.target.innerText)) {
-      return;
     } else {
-      setCurrentAnswer((prevState) => {
-        return [...prevState, event.target.innerText];
-      });
+      setCurrentAnswer((prevState) => [...prevState, event.target.innerText]);
     }
   };
 
@@ -34,7 +37,7 @@ const QuestionsArea = ({ updateCount, showScore, questionNumber, getQuestionNumb
         });
         if (isSameValues) {
           setChecked(isSameValues);
-          getQuestionNumber(currentQuestion+1);
+          getQuestionNumber(currentQuestion + 1);
         } else {
           showScore();
         }
@@ -57,22 +60,27 @@ const QuestionsArea = ({ updateCount, showScore, questionNumber, getQuestionNumb
         <>
           <Question question={config.questions[currentQuestion].question} />
           <div className="Answers">
-            {config.questions[currentQuestion].answers.map((variant, idx) => {
-              return (
-                <Answer
-                  key={idx + 1}
-                  text={variant}
-                  action={(event) => {
-                    answerSetHandler(event);
-                  }}
-                />
-              );
-            })}
+            {config.questions[currentQuestion].answers.map((variant, idx) => (
+              <Answer
+                key={idx + 1}
+                text={variant}
+                action={(event) => {
+                  answerSetHandler(event);
+                }}
+              />
+            ))}
           </div>
         </>
       ) : null}
     </div>
   );
+};
+
+QuestionsArea.propTypes = {
+  updateCount: PropTypes.func,
+  showScore: PropTypes.func,
+  questionNumber: PropTypes.number,
+  getQuestionNumber: PropTypes.func,
 };
 
 export default QuestionsArea;

@@ -1,0 +1,17 @@
+.ErrorContainer {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--Black-5);
+}
+
+.ErrorContainer h1 {
+  font-size: 4rem;
+}
+
+.ErrorContainer p {
+  font-size: 1.5rem;
+}

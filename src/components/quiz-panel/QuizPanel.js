@@ -11,10 +11,10 @@ const Quizpanel = () => {
   const [correctAnswersCount, setAnswersCount] = useState(0);
   const [isShown, setShown] = useState(false);
   const [showMenu, setShowMenu] = useState(true);
-  
+
   const getQuestionNumber = (num) => {
     setQuestionNumber(num);
-  }
+  };
 
   const countHandler = () => {
     setAnswersCount((prevState) => prevState + 1);
@@ -32,16 +32,22 @@ const Quizpanel = () => {
     <div className="QuizPanelWrapper">
       {correctAnswersCount !== config.questions.length && isShown === false ? (
         <div className="QuizPanelContainer">
-              <div className="MenuWrapper">
-                <img src={menu} alt="menu" className="Menu" onClick={toggleMenu}/>
-              </div>
-              <QuestionsArea 
-                updateCount={countHandler} 
-                showScore={showScore} 
-                questionNumber={questionNumber}
-                getQuestionNumber={getQuestionNumber}
-              />
-              <BountyList answersCount={correctAnswersCount} toggleMenu={toggleMenu} additionalClasses={showMenu ? null : 'Visible ShowBountyListWrapper'}/>
+          <div className="MenuWrapper">
+            <img src={menu} alt="menu" className="Menu" onClick={toggleMenu} />
+          </div>
+          <QuestionsArea
+            updateCount={countHandler}
+            showScore={showScore}
+            questionNumber={questionNumber}
+            getQuestionNumber={getQuestionNumber}
+          />
+          <BountyList
+            answersCount={correctAnswersCount}
+            toggleMenu={toggleMenu}
+            additionalClasses={
+              showMenu ? null : "Visible ShowBountyListWrapper"
+            }
+          />
         </div>
       ) : (
         <TotalScore answersCount={correctAnswersCount} />

@@ -1,5 +1,5 @@
 {
-  "homepage": "http://yuribenjamin.github.io/korovin-quiz-game",
+  "homepage": "https://dimachello.github.io/korovin-quiz-game",
   "name": "quiz_game",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +7,8 @@
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
@@ -18,8 +20,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "precommit": "lint-staged",
-    "eslint": "node_modeules/.bin/eslint src/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -42,20 +42,7 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^7.13.0",
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.21.5",
     "gh-pages": "^3.1.0",
-    "husky": "^4.3.0",
-    "lint-staged": "^10.5.1",
     "prettier": "^2.1.2"
-  },
-  "lint-staged": {
-    "*.{js,jsx}": [
-      "node_modules/.bin/eslint",
-      "prettier --write",
-      "git add"
-    ]
   }
 }
