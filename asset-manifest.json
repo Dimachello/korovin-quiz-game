@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/korovin-quiz-game/static/css/main.e79b1c16.chunk.css",
-    "main.js": "/korovin-quiz-game/static/js/main.3e8d2271.chunk.js",
-    "main.js.map": "/korovin-quiz-game/static/js/main.3e8d2271.chunk.js.map",
-    "runtime-main.js": "/korovin-quiz-game/static/js/runtime-main.fe7a4b6e.js",
-    "runtime-main.js.map": "/korovin-quiz-game/static/js/runtime-main.fe7a4b6e.js.map",
-    "static/js/2.67d3dac5.chunk.js": "/korovin-quiz-game/static/js/2.67d3dac5.chunk.js",
-    "static/js/2.67d3dac5.chunk.js.map": "/korovin-quiz-game/static/js/2.67d3dac5.chunk.js.map",
-    "static/js/3.bab2edd5.chunk.js": "/korovin-quiz-game/static/js/3.bab2edd5.chunk.js",
-    "static/js/3.bab2edd5.chunk.js.map": "/korovin-quiz-game/static/js/3.bab2edd5.chunk.js.map",
+    "main.css": "/korovin-quiz-game/static/css/main.c24190f4.chunk.css",
+    "main.js": "/korovin-quiz-game/static/js/main.6a60211a.chunk.js",
+    "main.js.map": "/korovin-quiz-game/static/js/main.6a60211a.chunk.js.map",
+    "runtime-main.js": "/korovin-quiz-game/static/js/runtime-main.385dcc6e.js",
+    "runtime-main.js.map": "/korovin-quiz-game/static/js/runtime-main.385dcc6e.js.map",
+    "static/js/2.4615a86c.chunk.js": "/korovin-quiz-game/static/js/2.4615a86c.chunk.js",
+    "static/js/2.4615a86c.chunk.js.map": "/korovin-quiz-game/static/js/2.4615a86c.chunk.js.map",
+    "static/js/3.954b3a7a.chunk.js": "/korovin-quiz-game/static/js/3.954b3a7a.chunk.js",
+    "static/js/3.954b3a7a.chunk.js.map": "/korovin-quiz-game/static/js/3.954b3a7a.chunk.js.map",
     "index.html": "/korovin-quiz-game/index.html",
-    "static/css/main.e79b1c16.chunk.css.map": "/korovin-quiz-game/static/css/main.e79b1c16.chunk.css.map",
-    "static/js/2.67d3dac5.chunk.js.LICENSE.txt": "/korovin-quiz-game/static/js/2.67d3dac5.chunk.js.LICENSE.txt"
+    "static/css/main.c24190f4.chunk.css.map": "/korovin-quiz-game/static/css/main.c24190f4.chunk.css.map",
+    "static/js/2.4615a86c.chunk.js.LICENSE.txt": "/korovin-quiz-game/static/js/2.4615a86c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fe7a4b6e.js",
-    "static/js/2.67d3dac5.chunk.js",
-    "static/css/main.e79b1c16.chunk.css",
-    "static/js/main.3e8d2271.chunk.js"
+    "static/js/runtime-main.385dcc6e.js",
+    "static/js/2.4615a86c.chunk.js",
+    "static/css/main.c24190f4.chunk.css",
+    "static/js/main.6a60211a.chunk.js"
   ]
 }
